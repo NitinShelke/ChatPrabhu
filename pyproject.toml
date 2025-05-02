@@ -1,9 +1,9 @@
 [project]
-name = "project"
+name = "chatPrabhu"
 version = "0.1.0"
 description = "This is a sample Python project following industry standards."
 readme = "README.md"
-requires-python = ">=3.8"  # Changed from 3.13 for compatibility
+requires-python = ">=3.12"  # Changed from 3.13 for compatibility
 license = {text = "MIT"}
 authors = [
     { name = "Nitin Shelke", email = "shelken54@gmail.com" }
@@ -25,7 +25,17 @@ dependencies = [
     "pydantic",   # Data validation & parsing
     "numpy",      # Numerical computing
     "pandas",
-    "python-box"
+    "python-box",
+    "langchain",              # Released: Apr 22, 2025
+    "google-generativeai",     # Released: Apr 17, 2025
+    "faiss-cpu",               # Latest stable release
+    "sentence-transformers",   # Released: Apr 15, 2025
+    "tiktoken",                # Released: Feb 14, 2025
+    "python-dotenv",           # Released: Mar 25, 2025
+    "streamlit",              # Released: Apr 29, 2025
+    "unstructured",           # Released: Mar 20, 2025
+    "PyMuPDF",                # Released: Mar 31, 2025
+    "requests" ,
 ]
 
 [project.optional-dependencies]

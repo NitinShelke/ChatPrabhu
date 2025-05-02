@@ -2,7 +2,7 @@
 
 import pytest  # noqa: F401
 
-from project.core import add
+from chatPrabhu.core import add
 
 
 @pytest.mark.parametrize(
