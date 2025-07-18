@@ -21,21 +21,26 @@ classifiers = [
 ]
 
 dependencies = [
-    "requests",   # HTTP requests handling
-    "pydantic",   # Data validation & parsing
-    "numpy",      # Numerical computing
+    "requests", # HTTP requests handling
+    "pydantic", # Data validation & parsing
+    "numpy", # Numerical computing
     "pandas",
     "python-box",
-    "langchain",              # Released: Apr 22, 2025
-    "google-generativeai",     # Released: Apr 17, 2025
-    "faiss-cpu",               # Latest stable release
-    "sentence-transformers",   # Released: Apr 15, 2025
-    "tiktoken",                # Released: Feb 14, 2025
-    "python-dotenv",           # Released: Mar 25, 2025
-    "streamlit",              # Released: Apr 29, 2025
-    "unstructured",           # Released: Mar 20, 2025
-    "PyMuPDF",                # Released: Mar 31, 2025
-    "requests" ,
+    "langgraph",
+    "langchainhub",
+    "langchain", # Released: Apr 22, 2025
+    "google-generativeai", # Released: Apr 17, 2025
+    "faiss-cpu", # Latest stable release
+    "sentence-transformers", # Released: Apr 15, 2025
+    "tiktoken", # Released: Feb 14, 2025
+    "python-dotenv", # Released: Mar 25, 2025
+    "streamlit", # Released: Apr 29, 2025
+    "unstructured", # Released: Mar 20, 2025
+    "PyMuPDF", # Released: Mar 31, 2025
+    "requests",
+    "langchain-community>=0.3.23",
+    "langchain-google-genai>=2.0.10",
+    "langchain-milvus>=0.2.0",
 ]
 
 [project.optional-dependencies]
